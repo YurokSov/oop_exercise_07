@@ -1,0 +1,49 @@
+Help:
+0. Create new document
+1. Insert figure: <figure-type> <coord-center> <coord0>
+2. Delete figure: <index>
+3. Save document: <document-name>
+4. Load document: <document-name>
+5. Undo last operation
+6. Redo last undone operation
+7. Print Document
+Loaded!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+Inserted!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+	triangle: [x: 0 y: 11] [x: -12.7583 y: -7.63397] [x: 9.75833 y: -9.36603]
+Removed!
+Removed!
+Print:
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+Undone!
+Print:
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+	triangle: [x: 0 y: 11] [x: -12.7583 y: -7.63397] [x: 9.75833 y: -9.36603]
+Undone!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+	triangle: [x: 0 y: 11] [x: -12.7583 y: -7.63397] [x: 9.75833 y: -9.36603]
+Undone!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+Redone!
+Redone!
+Print:
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+	triangle: [x: 0 y: 11] [x: -12.7583 y: -7.63397] [x: 9.75833 y: -9.36603]
+Saved!
+Removed!
+Removed!
+Print:
+Loaded!
+Print:
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+	triangle: [x: 0 y: 11] [x: -12.7583 y: -7.63397] [x: 9.75833 y: -9.36603]
+Goodbye!

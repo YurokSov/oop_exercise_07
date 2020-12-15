@@ -1,0 +1,33 @@
+Help:
+0. Create new document
+1. Insert figure: <figure-type> <coord-center> <coord0>
+2. Delete figure: <index>
+3. Save document: <document-name>
+4. Load document: <document-name>
+5. Undo last operation
+6. Redo last undone operation
+7. Print Document
+Inserted!
+Inserted!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	square: [x: 4 y: -4] [x: 6.66134e-16 y: 8]
+Undone!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+Redone!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	square: [x: 4 y: -4] [x: 6.66134e-16 y: 8]
+Inserted!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	square: [x: 4 y: -4] [x: 6.66134e-16 y: 8]
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+Removed!
+Print:
+	triangle: [x: 2 y: 2] [x: -0.366025 y: 1.36603] [x: 1.36603 y: -0.366025]
+	rectangle: [x: 5 y: 10] [x: -5 y: -10]
+Saved!
+No such option :)
+Goodbye!
